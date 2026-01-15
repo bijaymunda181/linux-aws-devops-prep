@@ -9,4 +9,4 @@ We decommission a server in the following situations:
 
 - The application has already been migrated to another server, and the old server is no longer needed.
 
-- Once it is confirmed—either by the application team or the server owner—that the server is not being used, we proceed with the decommissioning process.
+Once it is confirmed—either by the application team or the server owner—that the server is not being used, we proceed with the decommissioning process.
