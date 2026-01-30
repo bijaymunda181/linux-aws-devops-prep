@@ -1,0 +1,2 @@
+## 1. How can Account B access an S3 bucket in Account A ?
+I will create an IAM role in Account A with S3 permissions and configure the trust policy to allow Account B to assume the role using STS. In Account B, I will attach an AssumeRole policy to the IAM user or role. Once assumed, the user can access the S3 bucket in Account A.
