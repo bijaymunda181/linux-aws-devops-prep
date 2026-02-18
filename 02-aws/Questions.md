@@ -10,4 +10,9 @@ There are 2 type of subnet:
 1. private subnet : A private subnet is a subnet whose route table has not route to an Internet Gateway (IGW).
 2. public subnet : A public subnet is a subnet whose route table has a route to an Internet Gateway (IGW).
 
-## 4. 
+## 4. What is IGW ?
+IGW allow instances in public subnet to communicate with the internet .
+
+## 5. What is NAT-Gatway ?
+NAT-Gatway allow instances in a private subnet to communicate with the internet to download the updates.
+It allows only outbound traffic nad incoming traffic is not allowed. 
