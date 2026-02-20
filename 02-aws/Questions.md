@@ -15,4 +15,4 @@ IGW allow instances in public subnet to communicate with the internet .
 
 ## 5. What is NAT-Gatway ?
 NAT-Gatway allow instances in a private subnet to communicate with the internet such as to download the updates from internet.
-It allows only outbound traffic nad incoming traffic is not allowed. 
+It allows only outbound traffic but incoming traffic is not allowed. 
