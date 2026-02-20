@@ -67,5 +67,7 @@ routing policy decides
 - should traffic go nearest region
 - should it failover if one server is down ?
 
+## 13. 
+
 
 
