@@ -21,4 +21,4 @@ It allows only outbound traffic but incoming traffic is not allowed.
 A route table defines how traffic will be routed within the VPC or outside the VPC.
 
 
-## ip
+## IP ADDRESSES
