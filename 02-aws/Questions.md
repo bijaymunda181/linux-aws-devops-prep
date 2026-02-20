@@ -26,20 +26,14 @@ A route table defines how traffic will be routed within the VPC or outside the V
 ## 7. Type of IP Addresses in AWS ?
 There are three types of IP address 
 1. Private IP Addresses : Private IP Addresses are not reachable over the internet and can be used for communication between the instances in your VPC . </br>
-
 - When you launch instances into a VPC, A primary IP Address from the IP Address range of the subnet is assigned to default network interface (eth0) of the instance. </br>
-
 - A Private IP Address remain associated with the network interface when the instance stops and is released when the instance is terminated.
 
 2. Public IP Address : Public IP Addresses are reachable over the internet. We can use public IP address for communication between our instances and the internet.</br>
-
 - A public IP Address is mapped to the primary private IP address through network address translation (NAT).
-
-- When you launch an EC2-instances in EC@-classic, we automatically assign public IP address to the instance from the EC2-classic public Ipv4 address pool . And it's not in our control, generally managed by Amazon Network Team.
+- When you launch an EC2-instances in EC2-classic, we automatically assign public IP address to the instance from the EC2-classic public Ipv4 address pool . And it's not in our control, generally managed by Amazon Network Team.
 
 3. Elastic IP address : Elastic IP Address is static IPv4 address designed for dynamic cloud computing . </br>
-
 - An Elastic IP Address is associated with your AWS Account.</br>
-
 - An Elastic IP Address is a Public IPV4 address, which is reachable over the internet.
 
