@@ -33,7 +33,7 @@ There are three types of IP address
 - A public IP Address is mapped to the primary private IP address through network address translation (NAT).
 - When you launch an EC2-instances in EC2-classic, we automatically assign public IP address to the instance from the EC2-classic public Ipv4 address pool . And it's not in our control, generally managed by Amazon Network Team.
 
-3. Elastic IP address : Elastic IP Address is static IPv4 address designed for dynamic cloud computing .
+3. **Elastic IP address** : Elastic IP Address is static IPv4 address designed for dynamic cloud computing .
 - An Elastic IP Address is associated with your AWS Account.
 - An Elastic IP Address is a Public IPV4 address, which is reachable over the internet.
 
