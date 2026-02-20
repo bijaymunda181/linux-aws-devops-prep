@@ -20,4 +20,4 @@ It allows only outbound traffic but incoming traffic is not allowed.
 ## 6. What is Route Table ?
 A route table defines how traffic will be routed within the VPC or outside the VPC.
 
-##                                       **IP ADDRESSES**
+                                       **IP ADDRESSES**
