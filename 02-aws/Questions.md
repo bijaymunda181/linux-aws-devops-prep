@@ -16,3 +16,6 @@ IGW allow instances in public subnet to communicate with the internet .
 ## 5. What is NAT-Gatway ?
 NAT-Gatway allow instances in a private subnet to communicate with the internet such as to download the updates from internet.
 It allows only outbound traffic but incoming traffic is not allowed. 
+
+## 6. What is Route Table ?
+A route table defines how traffic will be routed within the VPC or outside the VPC.
