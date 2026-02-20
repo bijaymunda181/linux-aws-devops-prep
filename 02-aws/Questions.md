@@ -25,4 +25,6 @@ A route table defines how traffic will be routed within the VPC or outside the V
 
 ## 7. Type of IP Addresses in AWS ?
 There are three types of IP address 
-1. Private IP Addresses : Private IP Addresses are not reachable over the internet and can be used for communication between the instances in your VPC . 
+1. Private IP Addresses : Private IP Addresses are not reachable over the internet and can be used for communication between the instances in your VPC . </br>
+When you launch instances into a VPC, A primary IP Address from the IP Address range of the subnet is assigned to default network interface (eth0) of the instance. </br>
+A Private IP Address remain associated with the network interface when the instance stops and is released when the instance is terminated.
