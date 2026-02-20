@@ -37,3 +37,35 @@ There are three types of IP address
 - An Elastic IP Address is associated with your AWS Account.
 - An Elastic IP Address is a Public IPV4 address, which is reachable over the internet.
 
+## **ROUTE-53**
+
+## 8. What is DNS ? 
+DNS stands for Domain Name System . DNS translates domain names into IP Address and vice versa.
+
+## 9. What is Hosted Zone ?
+Hosted Zone is a container in DNS that holds all the DNS records for a specific Domain.
+
+## 10. What is DNS Record ?
+DNS Record is a mapping entry inside a hosted zone that connect a domain name to an IP Address or another domain.
+
+## 11. Type of DNS Record?
+There are so many type of DNS record such as:
+- A record
+- AAAA record
+- CNAME record
+
+## 12. What is Routing policy ?
+In Amazon Route-53, a routing policy determines how the DNS response are returned when multiple resources are associated with the same domain name.
+IT decides where traffic should go.
+- Example:
+suppose you have 
+- 2 EC2-instances
+- 2 Load balancer
+- Different region
+routing policy decides 
+- should traffic go equally
+- should traffic go nearest region
+- should it failover if one server is down ?
+
+
+
