@@ -78,5 +78,7 @@ To create a EC2-instance minimum 6 resources are required:
 5. SG
 6. Keypair
 
+## 14. 
+
 
 
