@@ -67,7 +67,16 @@ routing policy decides
 - should traffic go nearest region
 - should it failover if one server is down ?
 
-## 13. 
+## **EC2**
+
+## 13. How many resources are required to create an EC2-instance ?
+To create a EC2-instance minimum 6 resources are required:
+1. AMI 
+2. Instance Type 
+3. VPC
+4. Storage
+5. SG
+6. Keypair
 
 
 
