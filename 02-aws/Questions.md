@@ -78,7 +78,11 @@ To create a EC2-instance minimum 6 resources are required:
 5. SG
 6. Keypair
 
-## 14. 
+## 14. What is AMI ?
+In Amazon EC2, an AMI (Amazon Machine Image) is a template used to launch EC2 instances.It contains the operating system, application software, and configuration settings required to create a virtual server.
+Its like a blueprint of the server.
+
+## 15. 
 
 
 
