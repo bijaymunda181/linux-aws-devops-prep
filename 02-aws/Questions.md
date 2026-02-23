@@ -93,7 +93,13 @@ There is 2 methods by using that we can recover the lost ec2 key pair
 ## 17. How many ways are there to create a key pair ?
 There are two ways to create a key pair in AWS.
 
-## 18. 
+## 18. Instance Type
+1. General Purpose : Balance CPU, Memory, and Network Resources.
+2. Compute Optimized : High-performance CPU with more cores and higher clock speed.
+3. Memory Optimized : Very high RAM compare to CPU.
+4. Storage Optimizes : High storage capacity with local instance storage.
+5. Accelerated Computing : Very High performance or Specialized processors.
+
 
 
 
