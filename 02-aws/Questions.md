@@ -82,7 +82,9 @@ To create a EC2-instance minimum 6 resources are required:
 In Amazon EC2, an AMI (Amazon Machine Image) is a template used to launch EC2 instances.It contains the operating system, application software, and configuration settings required to create a virtual server.
 Its like a blueprint of the server.
 
-## 15. 
+## 15. What is Keypair ?
+A keypair in AWS EC2 consists of a public key and private key used for secure SSH authentication to instances. The public key stored on the instance, and the private key is kept by the user to connect securely without using password .
+
 
 
 
