@@ -100,6 +100,18 @@ There are two ways to create a key pair in AWS.
 4. Storage Optimizes : High storage capacity with local instance storage.
 5. Accelerated Computing : Very High performance or Specialized processors.
 
+## 19. Purchasing Models foe EC2 
+1. On-Demand : 
+- In the On-Demand model, we first use the service and then pay according to our usage.
+- There is no hardware commitment and there is no guarantee for the dedicated hypervisor.
+- Billing is Based on per minute . Costly compare to other Purchasing model.
+
+2. Reserved : 
+- There have pre-agreement of every service for some time period. And Amazon generally provide some discount for the service.
+
+3. Spot Instances : 
+- A Spot Instance is an EC2 instance that uses unused AWS capacity at a discounted price. However, it can be terminated by AWS at any time if the capacity is needed.”
+
 
 
 
