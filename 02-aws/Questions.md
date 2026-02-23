@@ -85,6 +85,12 @@ Its like a blueprint of the server.
 ## 15. What is Keypair ?
 A keypair in AWS EC2 consists of a public key and private key used for secure SSH authentication to instances. The public key stored on the instance, and the private key is kept by the user to connect securely without using password .
 
+## 16. How will you recover lost EC2 key pair ?
+There is 2 methods by using that we can recover the lost ec2 key pair
+1. By creating the custom image : Here we have to replace the server, we have to create custom image of the instance, need to know private ip, subnet, and VPC . In EC2 instance creation using AMI have to use previous private IP only so we have to terminate the lost key EC2 instance. While selecting the key, if the key is lost from sever side only then we can use previous key also but if key is lost from local pc or aws side then we need to create new keypair .
+2. Volume Method : Here no need to replace the server but we required one more sever to recover the key.
+
+
 
 
 
