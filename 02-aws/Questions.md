@@ -110,7 +110,15 @@ There are two ways to create a key pair in AWS.
 - There have pre-agreement of every service for some time period. And Amazon generally provide some discount for the service.
 
 3. Spot Instances : 
-- A Spot Instance is an EC2 instance that uses unused AWS capacity at a discounted price. However, it can be terminated by AWS at any time if the capacity is needed.”
+- A Spot Instance is an EC2 instance that uses unused AWS capacity at a discounted price. However, it can be terminated by AWS at any time if the capacity is needed.
+
+## CloudWatch
+
+## 20. What is CloudWatch ?
+CloudWatch is a AWS infra and resource monitoring tool.
+
+## 21. How to enable detail monitoring ?
+Select the instance then go to Action then click on Monitor and Troubleshoot then click on Manage Detail Monitoring then select Enable.
 
 
 
