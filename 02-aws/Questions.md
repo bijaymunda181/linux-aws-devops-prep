@@ -127,6 +127,10 @@ When we launch an instance, AWS perform two health checkup by using CloudWatch m
 
 ## *EBS*
 
+## 23. What is EBS ?
+EBS is a network-based block storage service in AWS that provides persistent storage for EC2 instances.
+
+
 
 
 
