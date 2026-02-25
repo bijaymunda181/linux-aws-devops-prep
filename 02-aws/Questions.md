@@ -134,7 +134,14 @@ EBS is a network-based block storage service in AWS that provides persistent sto
 Go to EC2 service then click on volumes then click on create volume then fill the details like volume type (gp1/gp3), size, and AZ.</br>
 To attach the volume to EC2 instance first select the volume then go to Action then choose the instance then give the device name then click on attach.
 
-## 25.
+## 25. How create Snapshot of the EBS volume ?
+Go to EC2 service then go to volumes then select the volume then click on Action then click on create snapshot.
+
+## 26. How to restore volume from Snapshot ?
+Go to EC2 service then on the left side of the screen click on snapshot then select the snapshot then click on Action then click on create volume from snapshot.
+
+## 27. How to Resize or Extend the EBS volume ?
+Go to EC2 service then go to volumes then select the volume then click on Action then select click on modify volume then we provide the volume size and AZ.
 
 
 
