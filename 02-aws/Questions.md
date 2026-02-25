@@ -132,7 +132,7 @@ EBS is a network-based block storage service in AWS that provides persistent sto
 
 ## 24. How to create EBS volume and attach to EC2 instance ?
 Go to EC2 service then click on volumes then click on create volume then fill the details like volume type (gp1/gp3), size, and AZ.</br>
-To attach the volume to EC2 instance first select the volume then go to Action then choose the instance the give the device name then click on attach.
+To attach the volume to EC2 instance first select the volume then go to Action then choose the instance then give the device name then click on attach.
 
 
 
