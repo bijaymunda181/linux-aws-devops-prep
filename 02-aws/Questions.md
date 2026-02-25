@@ -125,6 +125,8 @@ When we launch an instance, AWS perform two health checkup by using CloudWatch m
 1. System Status Check : AWS backed virtual infra . Means it will check the hardware then continue to the 2nd health checkup
 2. Instance Status Check (OS level health check) : Here AWS will check the connectivity from hypervisor to instance.
 
+## *EBS*
+
 
 
 
