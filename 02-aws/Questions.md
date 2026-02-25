@@ -118,7 +118,12 @@ There are two ways to create a key pair in AWS.
 CloudWatch is a AWS infra and resource monitoring tool.
 
 ## 21. How to enable detail monitoring ?
-Select the instance then go to Action then click on Monitor and Troubleshoot then click on Manage Detail Monitoring then select Enable.
+Select the instance then go to Action then click on Monitor and Troubleshoot then click on Manage Detail Monitoring then select Enable. In EC2 if monitoring is showing disable that means Detail monitoring is disable but basic monitoring is enable by default. we can't disable basic monitoring.
+
+## 22. What is status check ?
+When we launch an instance, AWS perform two health checkup by using CloudWatch metric 
+1. System Status Check : AWS backed virtual infra . Means it will check the hardware then continue to the 2nd health checkup
+2. Instance Status Check (OS level health check) : Here AWS will check the connectivity from hypervisor to instance.
 
 
 
