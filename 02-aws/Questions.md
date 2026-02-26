@@ -144,6 +144,12 @@ Go to EC2 service then on the left side of the screen click on snapshot then sel
 Go to EC2 service then go to volumes then select the volume then click on Action then select click on modify volume then we provide the volume size and AZ.
 
 
+## **S3 (Simple Storage Service)
+
+## 28. What is S3 and why it is used ?
+Amazon S3 (Simple Storage Service) is an object storage service provided by Amazon Web Services.</br>
+S3 is mainly used for storing logs, backup, etc.
+
 
 
 
