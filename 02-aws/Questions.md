@@ -160,7 +160,13 @@ A bucket policy is a JSON-based resource policy that is attached directly to an 
 A Lifecycle Rule is a feature in S3 that automatically moves or deletes objects after a specified period of time to reduce storage cost.
 
 ## How many type of storage class are there ?
-
+There is 6 storage classes:
+1. S3 standard 
+2. S3 Intelligent-Tiering
+3. S3 Standard-IA
+4. S3 One Zone-IA
+5. S3 Glacier
+6. S3 Glacier Deep Archive
 
 
 
