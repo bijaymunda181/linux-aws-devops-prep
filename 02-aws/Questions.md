@@ -156,6 +156,9 @@ Go to s3 service then click on create bucket then provide the Bucket name, Bucke
 ## 30. What is Bucket Policy and Why it is used ?
 A bucket policy is a JSON-based resource policy that is attached directly to an S3 bucket. It defines who can access the bucket and what actions they can perform, such as ListBucket, GetObject, and PutObject.
 
+## 31.What is Lifecycle rules and why we configure ?
+A Lifecycle Rule is a feature in S3 that automatically moves or deletes objects after a specified period of time to reduce storage cost.
+
 
 
 
