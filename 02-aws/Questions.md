@@ -150,6 +150,10 @@ Go to EC2 service then go to volumes then select the volume then click on Action
 Amazon S3 (Simple Storage Service) is an object storage service provided by Amazon Web Services.</br>
 S3 is mainly used for storing logs, backup, etc.
 
+## 29. how to create S3 Bucket ?
+Go to s3 service then click on create bucket then provide the Bucket name, Bucket name should be unique then click on create bucket.
+
+
 
 
 
