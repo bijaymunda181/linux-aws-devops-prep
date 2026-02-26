@@ -153,6 +153,9 @@ S3 is mainly used for storing logs, backup, etc.
 ## 29. how to create S3 Bucket ?
 Go to s3 service then click on create bucket then provide the Bucket name, Bucket name should be unique then click on create bucket.
 
+## 30. What is Bucket Policy and Why it is used ?
+A bucket policy is a JSON-based resource policy that is attached directly to an S3 bucket. It defines who can access the bucket and what actions they can perform, such as ListBucket, GetObject, and PutObject.
+
 
 
 
