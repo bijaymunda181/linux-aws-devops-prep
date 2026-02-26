@@ -159,6 +159,8 @@ A bucket policy is a JSON-based resource policy that is attached directly to an 
 ## 31.What is Lifecycle rules and why we configure ?
 A Lifecycle Rule is a feature in S3 that automatically moves or deletes objects after a specified period of time to reduce storage cost.
 
+## How many type of storage class are there ?
+
 
 
 
