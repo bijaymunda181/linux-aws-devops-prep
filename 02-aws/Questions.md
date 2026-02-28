@@ -190,7 +190,7 @@ Login to AWS Console
 6. Enter:
 - Index document: index.html
 - Error document: error.html (optional)
-7. Save changes
+7. Save changes </br>
    http://your-bucket-name.s3-website-region.amazonaws.com
 
 **Step 3: Upload Website Files**
@@ -206,7 +206,8 @@ Login to AWS Console
 **Step 4: Add Bucket Policy (Make it Public)**
 Go to:
 Bucket → Permissions → Bucket Policy → Paste this:
-{
+
+```{
 "Version": "2012-10-17",
 "Statement": [
 {
@@ -218,6 +219,7 @@ Bucket → Permissions → Bucket Policy → Paste this:
 }
 ]
 }
+```
 
 
 
