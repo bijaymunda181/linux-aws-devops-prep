@@ -168,7 +168,56 @@ There is 6 storage classes:
 5. S3 Glacier
 6. S3 Glacier Deep Archive
 
+## 31.How to Host a Static Website on Amazon S3 ?
+**Step 1: Create an S3 Bucket**
+Login to AWS Console
 
+1. Go to S3
+2. Click Create bucket
+3. Enter bucket name
+4. Enter bucket name
+   👉 Example: bijay-static-website
+5. Choose region
+6. Uncheck → Block all public access
+7. Click Create bucket
+
+**Step 2: Enable Static Website Hosting**
+1. Open your bucket
+2. Go to Properties
+3. Scroll to Static website hosting
+4. Click Edit
+5. Enable → Static website hosting
+6. Enter:
+- Index document: index.html
+- Error document: error.html (optional)
+7. Save changes
+   http://your-bucket-name.s3-website-region.amazonaws.com
+
+**Step 3: Upload Website Files**
+1. Go to Objects
+2. Click Upload
+3. Upload:
+- index.html
+- CSS files
+- Images
+- JS files
+4. Click Upload
+
+**Step 4: Add Bucket Policy (Make it Public)**
+Go to:
+Bucket → Permissions → Bucket Policy → Paste this:
+{
+"Version": "2012-10-17",
+"Statement": [
+{
+"Sid": "PublicReadGetObject",
+"Effect": "Allow",
+"Principal": "*",
+"Action": "s3:GetObject",
+"Resource": "arn:aws:s3:::your-bucket-name/*"
+}
+]
+}
 
 
 
