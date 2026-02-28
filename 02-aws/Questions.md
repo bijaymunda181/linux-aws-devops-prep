@@ -227,6 +227,7 @@ Replace your-bucket-name with your actual bucket name.
 Save the policy.
 
 **Step 5: Access Your Website**
+
 Now open the Website Endpoint URL in your browser.</br>
 http://my-fisrt-bucket-account-7.s3-website-us-east-1.amazonaws.com
 
