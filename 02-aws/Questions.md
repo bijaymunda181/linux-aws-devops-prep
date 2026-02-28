@@ -191,7 +191,7 @@ Login to AWS Console
 - Index document: index.html
 - Error document: error.html (optional)
 7. Save changes </br>
-   http://your-bucket-name.s3-website-region.amazonaws.com
+   http://my-fisrt-bucket-account-7.s3-website-us-east-1.amazonaws.com
 
 **Step 3: Upload Website Files**
 1. Go to Objects
@@ -208,18 +208,27 @@ Go to:
 Bucket → Permissions → Bucket Policy → Paste this:
 
 ```{
-"Version": "2012-10-17",
-"Statement": [
-{
-"Sid": "PublicReadGetObject",
-"Effect": "Allow",
-"Principal": "*",
-"Action": "s3:GetObject",
-"Resource": "arn:aws:s3:::your-bucket-name/*"
-}
-]
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "Statement1",
+      "Effect": "Allow",
+      "Principal": "*",
+      "Action": [
+        "s3:GetObject"
+      ],
+      "Resource": "arn:aws:s3:::my-fisrt-bucket-account-7/*"
+    }
+  ]
 }
 ```
+Replace your-bucket-name with your actual bucket name.
+
+Save the policy.
+
+**Step 5: Access Your Website**
+Now open the Website Endpoint URL in your browser.</br>
+http://my-fisrt-bucket-account-7.s3-website-us-east-1.amazonaws.com
 
 
 
