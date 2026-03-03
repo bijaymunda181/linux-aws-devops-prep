@@ -237,6 +237,10 @@ We enable Access Logging to track and monitor who is accessing our resources and
 ## 35. How to Enable Access Logging ?
 First go to your S3 bucket then go to properties scroll it down where you can see server Access Logging click on edit then select you bucket where you want to store your logs then save it .
 
+## 36. What is ACl and why we use it ?
+ACL in S3 is used to provide basic read and write permissions at bucket or object level. However, AWS now recommends using IAM policies and bucket policies instead of ACLs.
+It defines who can access the bucket/object and what type of access they have.
+
 
 
 
