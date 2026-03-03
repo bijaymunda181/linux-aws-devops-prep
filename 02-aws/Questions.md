@@ -241,6 +241,10 @@ First go to your S3 bucket then go to properties scroll it down where you can se
 ACL in S3 is used to provide basic read and write permissions at bucket or object level. However, AWS now recommends using IAM policies and bucket policies instead of ACLs.
 It defines who can access the bucket/object and what type of access they have.
 
+## **EFS**
+## What is EFS ?
+EFS stands for Elastic File System. EFS is fully managed, scalable, shared file storage service in AWS that can be mounted on multiple EC2 instances using the NFS protocol.
+
 
 
 
