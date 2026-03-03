@@ -242,8 +242,17 @@ ACL in S3 is used to provide basic read and write permissions at bucket or objec
 It defines who can access the bucket/object and what type of access they have.
 
 ## **EFS**
-## What is EFS ?
+## 36. What is EFS ?
 EFS stands for Elastic File System. EFS is fully managed, scalable, shared file storage service in AWS that can be mounted on multiple EC2 instances using the NFS protocol.
+
+## 37. How to create EFS file system and mount inside the EC2 instances ?
+step-1: Create SG for EFS
+step-2: Create EFS
+step-3: Mount inside EC2 instances (mount -t efs ip-of-the-nfs-server:/ mount-point )
+
+
+
+
 
 
 
