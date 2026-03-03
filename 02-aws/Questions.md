@@ -234,6 +234,9 @@ http://my-fisrt-bucket-account-7.s3-website-us-east-1.amazonaws.com
 ## 34. Why do we enable Access Logging ?
 We enable Access Logging to track and monitor who is accessing our resources and what actions they are performing.
 
+## 35. How to Enable Access Logging ?
+First go to your S3 bucket then go to properties scroll it down where you can see server Access Logging click on edit then select you bucket where you want to store your logs then save it .
+
 
 
 
