@@ -231,6 +231,10 @@ Save the policy.
 Now open the Website Endpoint URL in your browser.</br>
 http://my-fisrt-bucket-account-7.s3-website-us-east-1.amazonaws.com
 
+## 34. Why do we enable Access Logging ?
+We enable Access Logging to track and monitor who is accessing our resources and what actions they are performing.
+
+
 
 
 
