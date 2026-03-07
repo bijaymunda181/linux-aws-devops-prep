@@ -250,6 +250,16 @@ step-1: Create SG for EFS
 step-2: Create EFS
 step-3: Mount inside EC2 instances (mount -t efs ip-of-the-nfs-server:/ mount-point )
 
+## **SNS**
+## 38. What is SNS ?
+Amazon SNS is a fully managed messaging and notification service in AWS.
+
+## 39. What is Topic ?
+A topic is like a communication channel.
+
+## **SSM (System Manager)**
+## 40. What is Parameter Store and why it used for ?
+
 
 
 
