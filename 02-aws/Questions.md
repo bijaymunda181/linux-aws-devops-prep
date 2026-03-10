@@ -257,8 +257,9 @@ Amazon SNS is a fully managed messaging and notification service in AWS.
 ## 39. What is Topic ?
 A topic is like a communication channel.
 
-## **SSM (System Manager)**
-## 40. What is Parameter Store and why it used for ?
+## **Cloud Watch**
+## 40. What is Cloud Watch ?
+Cloud Watch is an AWS infra or resource monitoring tool. 
 
 
 
