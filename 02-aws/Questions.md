@@ -100,7 +100,7 @@ There are two ways to create a key pair in AWS.
 4. Storage Optimizes : High storage capacity with local instance storage.
 5. Accelerated Computing : Very High performance or Specialized processors.
 
-## 19. Purchasing Models foe EC2 
+## 19. Purchasing Models for EC2 
 1. On-Demand : 
 - In the On-Demand model, we first use the service and then pay according to our usage.
 - There is no hardware commitment and there is no guarantee for the dedicated hypervisor.
