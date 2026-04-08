@@ -83,7 +83,7 @@ In Amazon EC2, an AMI (Amazon Machine Image) is a template used to launch EC2 in
 Its like a blueprint of the server.
 
 ## 15. What is Keypair ?
-A keypair in AWS EC2 consists of a public key and private key used for secure SSH authentication to instances. The public key stored on the instance, and the private key is kept by the user to connect securely without using password .
+A key pair in AWS is a set of public and private keys used to securely access EC2 instances. The public key is stored on the instance, and private key stored in your local pc.
 
 ## 16. How will you recover lost EC2 key pair ?
 There is 2 methods by using that we can recover the lost ec2 key pair
@@ -263,9 +263,6 @@ A topic is like a communication channel.
 Cloud Watch is an AWS infra or resource monitoring tool. 
 
 ## 41. 
-
-## What is keypair ?
-A key pair in AWS is a set of public and private keys used to securely access EC2 instances. The public key is stored on the instance, and private key stored in your local pc.
 
 
 
