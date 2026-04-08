@@ -93,7 +93,8 @@ There is 2 methods by using that we can recover the lost ec2 key pair
 ## 17. How many ways are there to create a key pair ?
 There are two ways to create a key pair in AWS.
 
-## 18. Instance Type :- An instance type in AWS defines the hardware configuration of an EC2 instance, including CPU, Memory, and Network capacity. It help us choose the right server based on application requirement. 
+## 18. Instance Type :- 
+An instance type in AWS defines the hardware configuration of an EC2 instance, including CPU, Memory, and Network capacity. It help us choose the right server based on application requirement. 
 1. General Purpose : Balance CPU, Memory, and Network Resources.
 2. Compute Optimized : High-performance CPU with more cores and higher clock speed.
 3. Memory Optimized : Very high RAM compare to CPU.
