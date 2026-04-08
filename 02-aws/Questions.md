@@ -264,6 +264,9 @@ Cloud Watch is an AWS infra or resource monitoring tool.
 
 ## 41. 
 
+## What is keypair ?
+A key pair in AWS is a set of public and private keys used to securely access EC2 instances. The public key is stored on the instance, and the private key, and private key stored in your local pc.
+
 
 
 
