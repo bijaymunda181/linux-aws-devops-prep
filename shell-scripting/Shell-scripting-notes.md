@@ -9,3 +9,10 @@ There are 2 methods :
 - Here . represent current directory that means run the script which present in current directory
 - If you are in a different directory just provide the path like /root/shell/script.sh
 - if you use 2nd method your script file should have execute permission . 
+
+## 3. What is variable ?
+Variable uses as a container who contain the value.</br>
+name="Bijay"</br>
+Age=24</br>
+a=5</br>
+b=9.6</br>
