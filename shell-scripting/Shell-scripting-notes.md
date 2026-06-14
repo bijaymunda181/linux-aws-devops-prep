@@ -15,4 +15,4 @@ Variable uses as a container who contain the value.</br>
 name="Bijay"</br>
 Age=24</br>
 a=5</br>
-b=9.6</br>
+b=2
