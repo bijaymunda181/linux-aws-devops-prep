@@ -16,3 +16,7 @@ name="Bijay"</br>
 Age=24</br>
 a=5</br>
 b=2
+
+## 4. What is constant variable ?
+Once you define a variable and dont't wanna change it until end of the script .</br>
+Ex: readonly name= "bijay"
