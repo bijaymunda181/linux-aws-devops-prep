@@ -4,7 +4,7 @@ Shell scripting is sequence of command that is written in a file to automate rep
 ## 2. How to run shell scripting ?
 There are 2 methods :
 1. bash /path/to/script
-2. ./script.sh</br>
+2. ./script.sh </br> 
 **Note:** 
 - Here . represent current directory that means run the script which present in current directory
 - If you are in a different directory just provide the path like /root/shell/script.sh
