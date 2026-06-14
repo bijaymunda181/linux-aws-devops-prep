@@ -20,3 +20,8 @@ b=2
 ## 4. What is constant variable ?
 Once you define a variable and dont't wanna change it until end of the script .</br>
 Ex: readonly name= "bijay"
+
+## 5. What is Arrays in shell-scripting ?
+In shell-scripting, an Array is a variable that can store multiple values . it can be string, number, etc.
+Ex:-
+myarray= ( Bijay 24 5.2 "Bijay Munda" )
