@@ -305,5 +305,8 @@ IAM Role is collection of IAM Policies . That can be attached to AWS resources t
 ## 44. What is the Principle of Least Privilege?
 Giving only the minimum permission required to perform task.
 
+## 45. What is MFA in AWS?
+Multi-Factor Authentication adds an extra layer of security by requiring a second verification method.
+
 
 
