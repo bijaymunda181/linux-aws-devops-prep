@@ -308,5 +308,15 @@ Giving only the minimum permission required to perform task.
 ## 45. What is MFA in AWS?
 Multi-Factor Authentication adds an extra layer of security by requiring a second verification method.
 
+## 46. What happens if a user belongs to multiple groups?
+If a User receive the combined permission from all Group.
+
+## 47. What is the difference between AWS managed policies and customer managed policies?
+AWS Managed Policy:</br>
+- Created and maintained by AWS.</br>
+Customer Managed Policy:</br>
+- Created and managed by the customer.
+
+
 
 
