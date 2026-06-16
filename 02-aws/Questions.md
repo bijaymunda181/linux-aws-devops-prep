@@ -283,6 +283,8 @@ The main component of IAM are :
 3. Role 
 4. Policies
 
+## 45. What is an IAM User
+IAM User is one who can Manage and access AWS resources. But he needs permission to access the resources.
 
 
 
