@@ -317,6 +317,27 @@ AWS Managed Policy:</br>
 Customer Managed Policy:</br>
 - Created and managed by the customer.
 
+## 48. A developer needs read-only access to S3. How would you provide it?
+- Create an IAM policy with s3:GetObject and s3:ListBucket.
+- Attach the policy to the user or group.
+
+## 48. How would an EC2 instance access an S3 bucket securely?
+- Create an IAM Role.
+- Attach required S3 permissions.
+- Attach the role to the EC2 instance.
+
+## 49. How can you secure the root account?
+- Enable MFA.
+- Do not use root for daily tasks.
+- Create IAM users with administrative access.
+
+## 50. What is the difference between Authentication and Authorization?
+**Authentication:** Verifies who you are.</br>
+**Authorization:** Determines what actions you can perform.</br>
+
+**Example:**</br>
+- Login with username/password → Authentication.
+- Access S3 bucket → Authorization.
 
 
 
