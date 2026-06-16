@@ -302,6 +302,8 @@ IAM Role is collection of IAM Policies . That can be attached to AWS resources t
 | Has username/password | No permanent credentials              |
 | Used by humans        | Used by AWS services and applications |
 
+## 44. What is the Principle of Least Privilege?
+Giving only the minimum permission required to perform task.
 
 
 
