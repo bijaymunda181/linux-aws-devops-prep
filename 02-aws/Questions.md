@@ -295,5 +295,13 @@ IAM Policy is a collection of permission. That can be attached to user or group.
 ## 42. What is an IAM Role?
 IAM Role is collection of IAM Policies . That can be attached to AWS resources to give temporary permission.
 
+## 43. What is the difference between an IAM User and an IAM Role?
+| IAM User              | IAM Role                              |
+| --------------------- | ------------------------------------- |
+| Permanent identity    | Temporary identity                    |
+| Has username/password | No permanent credentials              |
+| Used by humans        | Used by AWS services and applications |
+
+
 
 
