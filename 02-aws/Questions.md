@@ -276,7 +276,12 @@ It is an event which we receive against the data of certain metrics.
 ## 43. What is IAM ?
 IAM (Identity and Access Management) is an AWS service used to securely manage access to AWS resources. It allows you to create users, groups, roles, and policies.
 
-
+## 44. What are the main components of IAM?
+The main component of IAM are :
+1. User
+2. Group 
+3. Role 
+4. Policies
 
 
 
