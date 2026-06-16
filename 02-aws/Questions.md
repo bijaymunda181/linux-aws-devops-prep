@@ -268,6 +268,13 @@ No
 ## 42. What is metrics ?
 Metrics is program that gather data from other AWS services .
 
+## What is Alarm ?
+It is an event which we receive against the data of certain metrics.
+
+## IAM(Identity and Access Management)
+
+## 43. What is IAM ?
+IAM (Identity and Access Management) is an AWS service used to securely manage access to AWS resources. It allows you to create users, groups, roles, and policies.
 
 
 
