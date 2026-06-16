@@ -292,5 +292,8 @@ Collection of IAM Users are Known as IAM Group.
 ## 41. What is an IAM Policy ?
 IAM Policy is a collection of permission. That can be attached to user or group. 
 
+## 42. What is an IAM Role?
+IAM Role is collection of IAM Policies . That can be attached to AWS resources to give temporary permission.
+
 
 
