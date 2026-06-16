@@ -289,5 +289,8 @@ IAM User is one who can Manage and access AWS resources. But he needs permission
 ## 46. What is an IAM Group?
 Collection of IAM Users are Known as IAM Group.
 
+## 41. What is an IAM Policy ?
+IAM Policy is a collection of permission. That can be attached to user or group. 
+
 
 
