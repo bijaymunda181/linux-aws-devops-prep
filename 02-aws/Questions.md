@@ -265,6 +265,8 @@ Cloud Watch is an AWS infra or resource monitoring tool.
 ## 41. Can we disable Basic Monitoring ?
 No
 
+## 42. What is metrics ?
+Metrics is program that gather data from other AWS services .
 
 
 
