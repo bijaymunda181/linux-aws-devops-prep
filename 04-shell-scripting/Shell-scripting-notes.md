@@ -111,3 +111,19 @@ echo "Linux"
 done
 ```
 Same output, but much less code.
+
+## 9. Types of Loops in Shell Scripting
+1. **For Loop**</br>
+   Used when you know how many times to repeat.
+```
+for i in 1 2 3
+do
+    echo $i
+done
+```
+**Output:**
+```
+1
+2
+3
+```
