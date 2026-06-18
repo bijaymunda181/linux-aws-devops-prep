@@ -88,3 +88,26 @@ else
 fi
 ```
 **Both produce the same result.**
+
+## 8. what is loops in Shell scripting ?
+A loop is used when you want to repeat the same task multiple times without writing the same command again and again.</br>
+or</br>
+A loop is a programming construct that repeatedly executes a block of code until a specified condition is met.</br>
+**EX:-**
+Write "Linux" 5 times.</br>
+**Without a loop:**
+```
+echo "Linux"
+echo "Linux"
+echo "Linux"
+echo "Linux"
+echo "Linux"
+```
+**With a loop:**
+```
+for i in 1 2 3 4 5
+do
+echo "Linux"
+done
+```
+Same output, but much less code.
