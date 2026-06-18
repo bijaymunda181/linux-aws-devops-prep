@@ -30,8 +30,9 @@ myarray= ( Bijay 24 5.2 "Bijay Munda" )
 Logical operators are used to combine multiple conditions.
 1. AND Operator (&&)</br>
    **Both conditions must be true**</br>
-   age=20
-```
+``` 
+age=20
+
 if [ $age -ge 18 ] && [ $age -le 60 ]
 then
 echo "Eligible"
