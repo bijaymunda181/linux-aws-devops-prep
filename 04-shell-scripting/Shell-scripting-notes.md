@@ -39,7 +39,7 @@ echo "Eligible"
 fi
 ```
 **output**</br>
-Eligible
+```Eligible```
 
 2. **OR Operator (||)**
    At least one condition must be true.
