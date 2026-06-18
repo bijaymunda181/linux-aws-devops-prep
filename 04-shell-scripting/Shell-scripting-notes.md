@@ -145,3 +145,22 @@ done
 2
 3
 ```
+
+3. **Until Loop**
+   Runs until the condition becomes true.
+```
+count=1
+
+until [ $count -gt 3 ]
+do
+    echo $count
+    ((count++))
+done
+```
+**output:**
+```
+1
+2
+3
+```
+
