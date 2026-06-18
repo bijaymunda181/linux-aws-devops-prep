@@ -36,6 +36,6 @@ if [ $age -ge 18 ] && [ $age -le 60 ]
 then
 echo "Eligible"
 fi
+```
 **output**</br>
 Eligible
-```
