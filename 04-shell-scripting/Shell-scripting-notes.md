@@ -53,3 +53,18 @@ fi
 ```
 **Output:**
 ```Special Category```
+
+3. **NOT Operator (!)**
+   **Reverses the result.**
+```
+num=5
+
+if ! [ $num -eq 10 ]
+then
+    echo "Number is not 10"
+fi
+```
+**Output:**
+```
+Number is not 10
+```
