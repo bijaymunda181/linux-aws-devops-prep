@@ -65,6 +65,4 @@ then
 fi
 ```
 **Output:**
-```
-Number is not 10
-```
+```Number is not 10```
