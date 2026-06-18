@@ -28,7 +28,7 @@ myarray= ( Bijay 24 5.2 "Bijay Munda" )
 
 ## 6. What is logical operators in shell scripting ?
 Logical operators are used to combine multiple conditions.
-1. AND Operator (&&)</br>
+1. **AND Operator (&&)**</br>
    **Both conditions must be true**</br>
 ``` 
 age=20
@@ -40,3 +40,16 @@ fi
 ```
 **output**</br>
 Eligible
+
+2. **OR Operator (||)**
+   At least one condition must be true.
+```declarative
+age=15
+
+if [ $age -lt 18 ] || [ $age -gt 60 ]
+then
+    echo "Special Category"
+fi
+```
+**Output:**
+```Special Category```
