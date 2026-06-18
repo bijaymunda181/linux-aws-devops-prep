@@ -127,3 +127,21 @@ done
 2
 3
 ```
+
+2. **While Loop**</br>
+   Runs while the condition is true.
+```
+count=1
+
+while [ $count -le 3 ]
+do
+    echo $count
+    ((count++))
+done
+```
+**Output:**
+```
+1
+2
+3
+```
