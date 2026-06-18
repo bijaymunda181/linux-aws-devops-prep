@@ -31,10 +31,11 @@ Logical operators are used to combine multiple conditions.
 1. AND Operator (&&)</br>
    **Both conditions must be true**</br>
    age=20
-
+```
 if [ $age -ge 18 ] && [ $age -le 60 ]
 then
 echo "Eligible"
 fi
 **output**</br>
 Eligible
+```
