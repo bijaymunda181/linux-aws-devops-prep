@@ -66,3 +66,14 @@ fi
 ```
 **Output:**
 ```Number is not 10```
+
+## 7. What is ternary operator in shell scripting ?
+A ternary operator is a short way of writing an **if-else** condition in a single line.
+**Example:**
+```
+age=20
+
+[ $age -ge 18 ] && echo "Adult" || echo "Minor"
+```
+**Output:**
+```Adult```
