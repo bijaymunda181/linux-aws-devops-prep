@@ -77,3 +77,14 @@ age=20
 ```
 **Output:**
 ```Adult```
+
+**Equivalent if-else**
+```
+if [ $age -ge 18 ]
+then
+    echo "Adult"
+else
+    echo "Minor"
+fi
+```
+**Both produce the same result.**
