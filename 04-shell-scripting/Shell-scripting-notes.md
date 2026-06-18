@@ -38,7 +38,7 @@ then
 echo "Eligible"
 fi
 ```
-**output**</br>
+**output:**
 ```Eligible```
 
 2. **OR Operator (||)**
