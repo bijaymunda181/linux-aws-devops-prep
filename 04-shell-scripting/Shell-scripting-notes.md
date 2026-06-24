@@ -182,3 +182,7 @@ greet
 ``` 
 Hello, Bijay!
 ```
+**use functions for:**
+- Avoid repeating code
+- Make scripts easier to read
+- Make scripts easier to maintain
