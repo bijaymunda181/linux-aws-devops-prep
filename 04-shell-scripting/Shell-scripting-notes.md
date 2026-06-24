@@ -163,5 +163,21 @@ done
 2
 3
 ```
+## 10. What is Function in shell scripting ?
+A function is a reusable block of code that performs a specific task.
+```function_name() {
+command1
+command2
+}
+```
+**Example**
+```
+greet() {
+    echo "Hello, Bijay!"
+}
 
-
+greet
+```
+**output:**
+```Hello, Bijay!
+```
