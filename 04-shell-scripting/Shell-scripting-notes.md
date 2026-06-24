@@ -185,4 +185,37 @@ Hello, Bijay!
 **use functions for:**
 - Avoid repeating code
 - Make scripts easier to read
-- Make scripts easier to maintain
+- Make scripts easier to 
+
+## 11. How to pass argument in function ?
+You can pass arguments to a function by writing them after the function name when calling it.
+**Example:**
+```
+#!/bin/bash
+
+greet() {
+    echo "Hello, $1"
+}
+
+greet Bijay
+```
+**Output:**
+```
+Hello, Bijay
+```
+**Multiple Arguments**
+```
+#!/bin/bash
+
+user_info() {
+    echo "Name: $1"
+    echo "Age: $2"
+}
+
+user_info Bijay 24
+```
+**Output:**
+```
+Name: Bijay
+Age: 24
+``
