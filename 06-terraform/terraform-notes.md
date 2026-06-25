@@ -46,3 +46,17 @@ After **terraform apply**, Terraform will show:
 ```
 instance_id = i-0123456789abcdef0
 ```
+## 4. What are Argument ?
+Arguments are the values you provide inside a resource block to configure the resource.</br>
+**Example:**
+```
+resource "aws_instance" "web" {
+  ami           = "ami-12345678"
+  instance_type = "t2.micro"
+}
+```
+**Here:**
+- ami = "ami-12345678" → Argument
+- instance_type = "t2.micro" → Argument
+
+
