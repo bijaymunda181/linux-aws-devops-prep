@@ -2,7 +2,7 @@
 Terraform is an infrastructure as a code (IaC) tool develop by Hashicorp used to provision and manage cloud resources using code.
 
 ## 2. What is Resource in terraform ?
-A resource is the infrastructure that Terraform creates and manages.
+A resource is the infrastructure that Terraform creates and manages.</br>
 **Examples:**
 - EC2 Instance
 - S3 Bucket
