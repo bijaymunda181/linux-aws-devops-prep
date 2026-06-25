@@ -18,3 +18,19 @@ resource "aws_instance" "web" {
 **Here:**
 - aws_instance → Resource type
 - web → Resource name
+
+## 3. What is Variables?
+A variable is used to store values that can change.<br>
+Instead of hardcoding values, we use variables.
+```
+variable "instance_type" {
+  default = "t2.micro"
+}
+```
+**Use the variable:**
+```
+resource "aws_instance" "web" {
+ami           = "ami-12345678"
+instance_type = var.instance_type
+}
+```
