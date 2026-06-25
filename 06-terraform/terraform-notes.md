@@ -34,3 +34,15 @@ ami           = "ami-12345678"
 instance_type = var.instance_type
 }
 ```
+## 4. What is output in terraform?
+An output displays information after Terraform creates the resources.</br>
+**Example:**
+```
+output "instance_id" {
+  value = aws_instance.web.id
+}
+```
+After **terraform apply**, Terraform will show:
+```
+instance_id = i-0123456789abcdef0
+```
