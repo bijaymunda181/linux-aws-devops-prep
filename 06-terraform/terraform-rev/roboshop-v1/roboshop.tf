@@ -8,6 +8,14 @@ resource "aws_instance" "frontend" {
   }
 }
 
+resource "aws_route53_record" "frontend" {
+  zone_id = Z0263363ANDXUHDABKMS
+  name    = "frontend-dev.lerntechnology.online"
+  type    = "A"
+  ttl     = 30
+  records = [aws_instance.frontend.private_ip]
+}
+
 resource "aws_instance" "mongodb" {
   ami           = "ami-027e79d2df3347114"
   instance_type = "t3.small"
