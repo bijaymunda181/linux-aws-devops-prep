@@ -96,12 +96,12 @@ resource "aws_instance" "user" {
   }
 }
 
-resource "aws_route53_record" "redis" {
+resource "aws_route53_record" "user" {
   zone_id = "Z0263363ANDXUHDABKMS"
-  name    = "redis-dev.lerntechnology.online"
+  name    = "user-dev.lerntechnology.online"
   type    = "A"
   ttl     = 30
-  records = [aws_instance.redis.private_ip]
+  records = [aws_instance.user.private_ip]
 }
 
 resource "aws_instance" "mysql" {
