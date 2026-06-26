@@ -61,3 +61,25 @@ output "fruit_stock_apple" {
 output "fruit_stock_with_price_apple" {
   value = var.fruit_stock_with_price.apple.stock
 }
+
+## variable Data type
+
+variable "fruit_details" {
+  default = {
+    apple = {
+      stock = 100
+      type = "washington"
+      for_sale = true
+    }
+  }
+}
+
+# variable in a combination of any other string then need to be with in ${}
+output "fruit_name_1" {
+  value = "Fruit Name =  ${var.fruit_name}"
+}
+
+
+output "fruit_details_apple" {
+  value = "Apple stock = ${var.fruit_details.apple.stock} , Apple type = ${var.fruit_details.apple.type} , Apple sale status = ${var.fruit_details.apple.for_sale}"
+}
