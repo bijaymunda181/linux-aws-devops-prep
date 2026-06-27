@@ -82,8 +82,8 @@ In Terraform, a function is a built-in helper that takes one or more values as i
 ```
 upper("bijay")
 ```
-**Input:** ```bijay```
-**Function:** ```upper()```
-**Output:** ```"BIJAY"```
+**Input:** ```bijay```</br>
+**Function:** ```upper()```</br>
+**Output:** ```"BIJAY"```</br>
 
 **Example 1: Convert to uppercase**
