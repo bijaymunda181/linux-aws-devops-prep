@@ -87,3 +87,58 @@ upper("bijay")
 **Output:** ```"BIJAY"```</br>
 
 **Example 1: Convert to uppercase**
+```
+output "name" {
+  value = upper("bijay")
+}
+```
+**Output:**
+```BIJAY```
+**Example 2: Convert to lowercase**
+```
+output "name" {
+  value = lower("BIJAY")
+}
+```
+**Output:**
+```bijay```
+
+**Example 3: Count characters**
+```
+output "length" {
+value = length("terraform")
+}
+```
+**Output:**
+```9```
+**Example 4: Join strings**
+```
+output "fullname" {
+  value = join("-", ["web", "server"])
+}
+```
+**Output:**
+```web-server```
+
+**Example 5: Split a string**
+```
+output "parts" {
+  value = split("-", "web-server")
+}
+```
+**output**
+```
+[
+  "web",
+  "server"
+]
+```
+
+**Example 6: Get the first item from a list**
+```
+output "first" {
+  value = element(["aws", "docker", "linux"], 0)
+}
+```
+**Output**
+```aws```
