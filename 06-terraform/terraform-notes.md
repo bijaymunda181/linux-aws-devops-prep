@@ -142,3 +142,32 @@ output "first" {
 ```
 **Output**
 ```aws```
+
+## 7. What is Data sources in terraform ?
+A Data sources in terraform used to read information about existing resources from a cloud provider or another system. It does not create, modify, or delete resources.</br>
+**Example:**
+```
+data "aws_ami" "latest" {
+  most_recent = true
+  owners       = ["amazon"]
+
+  filter {
+    name   = "name"
+    values = ["al2023-ami-*"]
+  }
+}
+```
+**Here:**
+- data → Read existing data.
+- aws_ami → Search for an existing AMI.
+- latest → Local name used to reference it.
+
+**Using the data source**</br>
+Once Terraform finds the AMI, you can use it:</br>
+```
+resource "aws_instance" "web" {
+  ami           = data.aws_ami.latest.id
+  instance_type = "t3.micro"
+}
+```
+Terraform first finds the latest AMI, then uses its ID to launch the EC2 instance.
