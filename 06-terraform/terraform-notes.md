@@ -76,3 +76,14 @@ output "instance_ip" {
   value = aws_instance.web.public_ip
   }
 ```
+## 6. What is function ?
+In Terraform, a function is a built-in helper that takes one or more values as input, performs an operation, and returns a result.</br>
+**For example:**
+```
+upper("bijay")
+```
+**Input:** ```bijay```
+**Function:** ```upper()```
+**Output:** ```"BIJAY"```
+
+**Example 1: Convert to uppercase**
