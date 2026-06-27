@@ -67,9 +67,9 @@ output "fruit_stock_with_price_apple" {
 variable "fruit_details" {
   default = {
     apple = {
-      stock = 100
-      type = "washington"
-      for_sale = true
+      stock = 100         # number
+      type = "washington" # string
+      for_sale = true     # boolean
     }
   }
 }
