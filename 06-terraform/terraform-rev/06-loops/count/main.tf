@@ -7,7 +7,7 @@ resource "aws_instance" "instance" {
   ami           = "ami-027e79d2df3347114"
   instance_type = "t3.small"
   vpc_security_group_ids = [ "sg-0031efde6a51cea49" ]
-}
+
 
 tags = {
   Name = ""
