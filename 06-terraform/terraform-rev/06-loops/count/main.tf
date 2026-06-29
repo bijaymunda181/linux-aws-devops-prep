@@ -8,3 +8,8 @@ resource "aws_instance" "instance" {
   instance_type = "t3.small"
   vpc_security_group_ids = [ "sg-0031efde6a51cea49" ]
 }
+
+tags = {
+  Name = ""
+}
+}
