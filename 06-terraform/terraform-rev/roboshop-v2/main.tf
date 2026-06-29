@@ -39,7 +39,7 @@ resource "aws_instance" "instance" {
   vpc_security_group_ids = var.security_groups
 
   tags = {
-    Name = lookup(each.key, "name", null)
+    Name = lookup(each.value, "name", null)
   }
 }
 
