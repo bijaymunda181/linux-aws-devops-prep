@@ -7,7 +7,7 @@ terraform {
   }
 }
 variable "user_names" {
-  default = ["user1", "user2", "user3"]
+  default = ["Munda", "user1", "user2", "user3"]
 }
 
 resource "aws_iam_user" "user_name" {
