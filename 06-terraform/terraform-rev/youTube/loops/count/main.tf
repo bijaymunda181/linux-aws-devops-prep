@@ -14,3 +14,5 @@ resource "aws_iam_user" "user_name" {
   count = length(var.user_names)
   name = var.user_names[count.index]
 }
+
+// Here is a problem if sequence of user names changed then it will rename the user that is the problem.
