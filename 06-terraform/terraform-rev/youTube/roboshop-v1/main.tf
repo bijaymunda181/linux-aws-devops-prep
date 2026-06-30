@@ -16,11 +16,11 @@ variable "zone_id" {
 
 variable "components" {
   default = {
-    frontend  = {name = "frontend-dev"}
-    mongodb  = {name = "mongodb-dev"}
-    catalogue  = {name = "catalogue-dev"}
-    cart  = {name = "cart-dev"}
-    redis  = {name = "rdis-dev"}
+    frontend  = { name = "frontend-dev" }
+    mongodb  = { name = "mongodb-dev" }
+    catalogue  = { name = "catalogue-dev" }
+    cart  = { name = "cart-dev" }
+    redis  = { name = "rdis-dev" }
   }
 }
 
@@ -38,10 +38,12 @@ resource "aws_instance" "instance" {
 }
 
 resource "aws_route53_record" "record" {
+  for_each = var.components
+
   zone_id = var.zone_id
-  name    = "${lookup(each.value, "name", null )}.lerntechnology.online"
+  name    = "${lookup(each.value, "name", null)}.lerntechnology.online"
   type    = "A"
   ttl     = 30
-  records = [ aws_instance.instance[each.key].private_ip ]
+  records =  aws_instance.instance[each.key].private_ip
 }
 
