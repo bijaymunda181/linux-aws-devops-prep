@@ -8,7 +8,7 @@ terraform {
 }
 variable "iam_users" {
   type = set(string)
-  default = ["Rahul", "Mohan", "Sohan"]
+  default = ["new-user", "Rahul", "Mohan", "Sohan"]
 }
 
 resource "aws_iam_user" "users" {
