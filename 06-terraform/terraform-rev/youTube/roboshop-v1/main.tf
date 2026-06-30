@@ -37,7 +37,7 @@ resource "aws_instance" "instance" {
   }
 }
 
-resource "aws_route53_record" "frontend" {
+resource "aws_route53_record" "record" {
   zone_id = "Z0263363ANDXUHDABKMS"
   name    = ${lookup(each.value, "name", null ).lerntechnology.online}
   type    = "A"
