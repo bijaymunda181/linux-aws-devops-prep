@@ -38,7 +38,7 @@ resource "aws_instance" "instance" {
 }
 
 resource "aws_route53_record" "record" {
-  zone_id = "Z0263363ANDXUHDABKMS"
+  zone_id = var.zone_id
   name    = ${lookup(each.value, "name", null ).lerntechnology.online}
   type    = "A"
   ttl     = 30
