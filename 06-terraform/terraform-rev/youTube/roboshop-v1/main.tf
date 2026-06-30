@@ -20,7 +20,7 @@ variable "components" {
     mongodb  = { name = "mongodb-dev" }
     catalogue  = { name = "catalogue-dev" }
     cart  = { name = "cart-dev" }
-    redis  = { name = "rdis-dev" }
+    redis  = { name = "redis-dev" }
   }
 }
 
