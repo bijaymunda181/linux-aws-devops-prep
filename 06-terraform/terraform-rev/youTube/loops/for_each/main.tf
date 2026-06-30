@@ -7,6 +7,7 @@ terraform {
   }
 }
 variable "iam_users" {
+  type = set(string)
   default = ["Rahul", "Mohan", "Sohan"]
 }
 
