@@ -1,14 +1,7 @@
-terraform {
-  required_providers {
-    aws = {
-      source  = "hashicorp/aws"
-      version = "5.54.1"
-    }
-  }
-}
+
 data "aws_ami" "ami" {
   most_recent = true
-  name_regex  = "CentOS Stream 9 x86_64"
+  name_regex  = "CentOS Stream 9 x86_64 20260526"
   owners = ["125523088429"]
 }
 
