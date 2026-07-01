@@ -6,7 +6,13 @@ resource "aws_instance" "instance" {
   tags = {
     Name = var.name
   }
+  provisioner "local-exec" {
+    command = "sleep 30"
+  }
 }
+
+
+
 
 resource "aws_route53_record" "record" {
   zone_id = var.zone_id
