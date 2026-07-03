@@ -171,3 +171,6 @@ resource "aws_instance" "web" {
 }
 ```
 Terraform first finds the latest AMI, then uses its ID to launch the EC2 instance.
+
+## 8. What is module in terraform ?
+A Terraform module is a reusable collection of Terraform configuration files that groups related resources together. Modules help reduce code duplication, improve maintainability, and standardize infrastructure deployment. Terraform has three main types of modules: the root module, child modules, and remote modules.
