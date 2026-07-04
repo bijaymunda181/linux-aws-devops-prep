@@ -174,3 +174,16 @@ Terraform first finds the latest AMI, then uses its ID to launch the EC2 instanc
 
 ## 8. What is module in terraform ?
 A Terraform module is a reusable collection of Terraform configuration files that groups related resources together. Modules help reduce code duplication, improve maintainability, and standardize infrastructure deployment. Terraform has three main types of modules: the root module, child modules, and remote modules.
+
+## 9. What is a Provisioner in Terraform?
+A provisioner is used to execute scripts or commands on a local machine or a remote machine after (or before destroying) a resource is created.
+
+## 10. Why Do We Use Provisioners?
+Sometimes, creating a resource is not enough.</br>
+For example, after launching an EC2 instance, you may want to:</br>
+- Install Apache
+- Install Nginx
+- Copy configuration files
+- Run a shell script
+- Restart a service
+  Instead of doing this manually, you can use a provisioner.
