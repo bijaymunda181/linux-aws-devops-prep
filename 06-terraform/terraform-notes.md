@@ -216,3 +216,10 @@ store in a share backend such as
 - Azure storage
 - Google cloud storage
 - Terraform cloud
+
+## 17. What is difference between Desire and Current state ?
+**Desire state  :**  Desired state is the infrastructure configuration defined in the Terraform .tf files.</br>
+**Current State :**  Current state is the actual infrastructure that exists in the cloud and is tracked in the terraform.tfstate file.</br>
+**Easy to Remember:**</br>
+- **Desired State** = What you want (defined in Terraform code)
+- **Current State** = What you have (tracked in terraform.tfstate and reflected in AWS)
