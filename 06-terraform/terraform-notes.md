@@ -203,3 +203,16 @@ The Terraform state file (terraform.tfstate) stores the current state of the inf
 
 ## 15. What happens without state file ?
 If the state file is lost, Terraform no longer knows which resources are created. It may try to create duplicate resources or be unable to create duplicate resources or be unable to update existing one correctly.
+
+## 16. What is difference between local and remote state ?
+**Local State:**
+- Store on your local machine 
+- Default behaviour
+- Suitable for learning or small project
+
+**Remote State**
+store in a share backend such as 
+- Amazon s3
+- Azure storage
+- Google cloud storage
+- Terraform cloud
