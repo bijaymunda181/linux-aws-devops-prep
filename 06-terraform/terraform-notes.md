@@ -223,3 +223,4 @@ store in a share backend such as
 **Easy to Remember:**</br>
 - **Desired State** = What you want (defined in Terraform code)
 - **Current State** = What you have (tracked in terraform.tfstate and reflected in AWS)
+

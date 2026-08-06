@@ -339,5 +339,45 @@ Customer Managed Policy:</br>
 - Login with username/password → Authentication.
 - Access S3 bucket → Authorization.
 
+## 51. What are VPC Flow Logs?
+VPC flow logs is an aws feature that capture information about the ip network traffic going to and from network interfaces in you vpc.
 
+## 52. At which levels can you enable VPC Flow Logs?
+VPC Flow Logs can be enabled at three levels:
+- VPC level
+- Subnet level
+- Network Interface (ENI) level
 
+## 53. What is the difference between enabling Flow Logs at the VPC and subnet level?
+At the VPC level, traffic for all ENIs in every subnet of the VPC is logged. At the subnet level, only traffic for ENIs within that specific subnet is logged.
+
+## 54. Why would you use VPC Flow Logs?
+We use VPC Flow Logs to:
+- Troubleshoot network connectivity issues.
+- Monitor network traffic.
+- Investigate security incidents.
+- Perform auditing and compliance.
+
+## 55. What information do VPC Flow Logs record?
+- Source IP
+- Destination IP
+- Source and destination ports
+- Protocol
+- Number of packets
+- Number of bytes
+- ACCEPT or REJECT action
+- Start and end time
+
+## 56. What do VPC Flow Logs not capture?
+They do not capture the packet payload or application data, such as HTTP request bodies, usernames, passwords, or file contents.
+
+## 57. Where can VPC Flow Logs be stored?
+VPC Flow Logs can be sent to:
+- Amazon CloudWatch Logs
+- Amazon S3
+
+## 58. Your EC2 instance is not reachable. How can VPC Flow Logs help? (Scenario-based question)
+would enable or check VPC Flow Logs and look for traffic to the instance. If I see ```REJECT``` entries, it may indicate that a Security Group, Network ACL, or routing issue is blocking the traffic. If I see ```ACCEPT```, then the issue is likely at the operating system or application level, such as a firewall or service not running.
+
+## 59. Can VPC Flow Logs tell you why traffic was rejected? (A common follow-up question is:)
+No. VPC Flow Logs only show that the traffic was ```ACCEPT``` or ```REJECT```. They do not identify the exact reason for the rejection. To determine the cause, I would also examine the Security Groups, Network ACLs, route tables, and the operating system firewall.
