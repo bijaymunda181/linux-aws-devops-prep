@@ -21,6 +21,10 @@ variable "vpc" {
 }
 
 
+# output "all_subnets" {
+#   value = { for k,v in merge(var.vpc["main"]["subnets"]): "subnets" => v }
+# }
+
 output "all_subnets" {
-  value = { for k,v in merge(var.vpc["main"]["subnets"]): "subnets" => v }
+  value = flatten([for subnet_type, subnets in var.vpc["main"]["subnets"] : [ for subnet_name, subnet in subnets : subnet.cidr ]])
 }
