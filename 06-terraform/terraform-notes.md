@@ -77,7 +77,8 @@ output "instance_ip" {
   }
 ```
 
-```                    RESOURCE
+```  
+                  RESOURCE
                        │
              aws_instance.web
                        │
