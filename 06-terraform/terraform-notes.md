@@ -46,7 +46,7 @@ After **terraform apply**, Terraform will show:
 ```
 instance_id = i-0123456789abcdef0
 ```
-## 4. What are Argument ?
+## 5. What are Argument ?
 Arguments are the values you provide inside a resource block to configure the resource.</br>
 **Example:**
 ```
@@ -59,7 +59,7 @@ resource "aws_instance" "web" {
 - ami = "ami-12345678" → Argument
 - instance_type = "t2.micro" → Argument
 
-## 5.What are Attributes in Terraform?
+## 6.What are Attributes in Terraform?
 Attributes are values that a resource provides after it is created.</br>
 **Example:**
 ```
@@ -92,7 +92,7 @@ output "instance_ip" {
     subnet_id                    id
     key_name                     arn 
    ```
-## 6. What is function ?
+## 7. What is function ?
 In Terraform, a function is a built-in helper that takes one or more values as input, performs an operation, and returns a result.</br>
 **For example:**
 ```
@@ -159,7 +159,7 @@ output "first" {
 **Output**
 ```aws```
 
-## 7. What is Data sources in terraform ?
+## 8. What is Data sources in terraform ?
 A Data sources in terraform used to read information about existing resources from a cloud provider or another system. It does not create, modify, or delete resources.</br>
 **Example:**
 ```
@@ -188,13 +188,13 @@ resource "aws_instance" "web" {
 ```
 Terraform first finds the latest AMI, then uses its ID to launch the EC2 instance.
 
-## 8. What is module in terraform ?
+## 9. What is module in terraform ?
 A Terraform module is a reusable collection of Terraform configuration files that groups related resources together. Modules help reduce code duplication, improve maintainability, and standardize infrastructure deployment. Terraform has three main types of modules: the root module, child modules, and remote modules.
 
-## 9. What is a Provisioner in Terraform?
+## 10. What is a Provisioner in Terraform?
 A provisioner is used to execute scripts or commands on a local machine or a remote machine after (or before destroying) a resource is created.
 
-## 10. Why Do We Use Provisioners?
+## 11. Why Do We Use Provisioners?
 Sometimes, creating a resource is not enough.</br>
 For example, after launching an EC2 instance, you may want to:</br>
 - Install Apache
@@ -204,10 +204,10 @@ For example, after launching an EC2 instance, you may want to:</br>
 - Restart a service
   Instead of doing this manually, you can use a provisioner.
 
-## 11. What is state file in terraform ?
+## 12. What is state file in terraform ?
 Terraform state file is a file that store information about the infrastructure Terraform manages. It act as source of truth for the resources it has created.
 
-## 12. Why the state file is needed ?
+## 13. Why the state file is needed ?
 Terraform uses state file to :
 - Track the resources it has created.
 - Map your terraform configuration to real infrastructure.
