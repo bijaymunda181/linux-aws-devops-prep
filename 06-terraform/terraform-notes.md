@@ -205,7 +205,7 @@ For example, after launching an EC2 instance, you may want to:</br>
   Instead of doing this manually, you can use a provisioner.
 
 ## 12. What is state file in terraform ?
-Terraform state file is a file that store information about the infrastructure Terraform manages. It act as source of truth for the resources it has created.
+Terraform state file is a file that stores information about the infrastructure that Terraform manages. It act as a source of truth for the resources it has created.
 
 ## 13. Why the state file is needed ?
 Terraform uses state file to :
