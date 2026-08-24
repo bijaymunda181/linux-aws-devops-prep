@@ -240,3 +240,16 @@ store in a share backend such as
 - **Desired State** = What you want (defined in Terraform code)
 - **Current State** = What you have (tracked in terraform.tfstate and reflected in AWS)
 
+
+## 18. What problem does terraform solve ?
+It solves infrastructure provisioning challenges by using code to built, change, and version infrastructure safely.
+
+## 19. How does terraform works ?
+you write configuration (HCL) , rum plan to review changes and apply to provision infrastructure .
+
+## 20. What is HCL ?
+HCL is a configuration language developed by HasiCrop. It is a declarative language use by terraform .
+
+## 21. What are provider in ?
+A provider is a plugin that let terraform interact with API's of cloud or service (AWS, GCP, Azur) .
+
