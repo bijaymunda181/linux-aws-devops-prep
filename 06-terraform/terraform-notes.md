@@ -250,6 +250,6 @@ you write configuration (HCL) , rum plan to review changes and apply to provisio
 ## 20. What is HCL ?
 HCL is a configuration language developed by HasiCrop. It is a declarative language use by terraform .
 
-## 21. What are provider in ?
+## 21. What are provider in terraform ?
 A provider is a plugin that let terraform interact with API's of cloud or service (AWS, GCP, Azur) .
 
