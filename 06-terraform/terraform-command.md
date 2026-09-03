@@ -1,0 +1,7 @@
+1. **terraform init** : terraform init initializes your Terraform working directory</br>
+   The main things it does are:
+    - Downloads providers                      : Terraform downloads the AWS provider plugin. ```source = "hashicorp/aws```
+    - Downloads modules                        : 
+    - Initializes the backend
+    - Creates the ```.terraform``` directory   : Terraform stores downloaded providers and modules there.
+    - Creates/updates ```.terraform.lock.hcl```: This records the selected provider versions and checksums so that future ```terraform init``` operations use consistent provider versions.
