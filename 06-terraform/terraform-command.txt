@@ -5,3 +5,5 @@
     - Initializes the backend
     - Creates the .terraform directory         : Terraform stores downloaded providers and modules there.
     - Creates/updates .terraform.lock.hcl      : This records the selected provider versions and checksums so that future terraform init operations use consistent provider versions.
+
+2. terraform init -upgrade                     : To update the version & Provider. It will update the local file info.
