@@ -7,7 +7,7 @@ terraform {
 }
 }
 resource "aws_instance" "example" {
-  ami           = "ami-027e79d2df3347114"
+  ami           = "ami-081b0a6eac00b4f53"
   instance_type = "t3.micro"
 
   tags = {
