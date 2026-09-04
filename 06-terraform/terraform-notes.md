@@ -245,7 +245,7 @@ store in a share backend such as
 It solves infrastructure provisioning challenges by using code to built, change, and version infrastructure safely.
 
 ## 19. How does terraform works ?
-you write configuration (HCL) , rum plan to review changes and apply to provision infrastructure .
+you write configuration (HCL) , run plan to review changes and apply to provision infrastructure .
 
 ## 20. What is HCL ?
 HCL is a configuration language developed by HasiCrop. It is a declarative language use by terraform .
