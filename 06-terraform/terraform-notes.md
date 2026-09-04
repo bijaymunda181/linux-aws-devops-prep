@@ -253,7 +253,7 @@ HCL is a configuration language developed by HasiCrop. It is a declarative langu
 ## 21. What are provider in terraform ?
 A provider is a plugin that let terraform interact with API's of cloud or service (AWS, GCP, Azur) .
 
-## 232 How many types of providers are there in terraform ?
+## 22. How many types of providers are there in terraform ?
 There are 3 types of providers:
 - Official : Owned and managed by HasiCrop.
 - Partner  : Owned and manage by technology company that maintains direct partnership with HasiCrop.
