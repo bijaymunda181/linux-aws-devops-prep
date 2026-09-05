@@ -6,10 +6,15 @@ terraform {
  }
 }
 }
+
+data "aws_security_group" "example" {
+  name = "my-sg"
+}
+
 resource "aws_instance" "example" {
   ami           = "ami-081b0a6eac00b4f53"
   instance_type = "t3.micro"
-  security_groups = ["sg-0c6aa0d3a39bac0df"]
+  vpc_security_group_ids = data.aws_security_group.example.id
 
   tags = {
     Name = "HelloWorld"
