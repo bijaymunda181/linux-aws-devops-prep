@@ -267,3 +267,18 @@ Terraform variable precedence determines which value Terraform uses when the sam
 
 ## 25. What is Data Types in terraform ?
 Terraform data types define what kind of values a variable can store, such as text, numbers, Boolean values, collections, and structured data.
+
+## 26. Types of data types in terraform ?
+```declarative
+| Type     | Example                              | Think of it as                   |
+| -------- | ------------------------------------ | -------------------------------- |
+| `string` | `"t3.micro"`                         | Text                             |
+| `number` | `10`                                 | Number                           |
+| `bool`   | `true`                               | Yes/No                           |
+| `list`   | `["a","b","c"]`                      | Ordered collection               |
+| `set`    | `["a","b","c"]`                      | Unique collection                |
+| `map`    | `{dev="t3.micro", prod="t3.medium"}` | Key → value                      |
+| `tuple`  | `["web", 2, true]`                   | Fixed positions, different types |
+| `object` | `{name="web", count=2}`              | Structured data                  |
+
+```
