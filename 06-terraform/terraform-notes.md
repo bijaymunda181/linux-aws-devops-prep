@@ -261,3 +261,6 @@ There are 3 types of providers:
 
 ## 23. If we change the instance type manually then what will happen ?
 Terraform tries to ensure that the deployed infrastructure is based on the desire state. If there is difference between them, terraform plan present a description of changes necessarily to archive the desire state. So in the next terraform apply again it will change the instance type to desire state.
+
+## 24. What is variable precedence in terraform ?
+Terraform variable precedence determines which value Terraform uses when the same variable is defined in multiple places. Command-line ```-var``` and ```-var-file``` values have the highest priority, while the variable ```default``` has the lowest.
