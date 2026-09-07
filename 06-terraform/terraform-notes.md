@@ -264,3 +264,6 @@ Terraform tries to ensure that the deployed infrastructure is based on the desir
 
 ## 24. What is variable precedence in terraform ?
 Terraform variable precedence determines which value Terraform uses when the same variable is defined in multiple places. Command-line ```-var``` and ```-var-file``` values have the highest priority, while the variable ```default``` has the lowest.
+
+## 25. What is Data Types in terraform ?
+Terraform data types define what kind of values a variable can store, such as text, numbers, Boolean values, collections, and structured data.
