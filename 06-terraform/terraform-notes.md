@@ -282,3 +282,5 @@ Terraform data types define what kind of values a variable can store, such as te
 | `object` | `{name="web", count=2}`              | Structured data                  |
 
 ```
+## 27. what is count parameter in terraform ?
+In Terraform, ```count``` is a meta-argument used to create multiple instances of the same resource based on a number.
