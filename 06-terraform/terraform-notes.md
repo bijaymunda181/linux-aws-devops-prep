@@ -284,3 +284,9 @@ Terraform data types define what kind of values a variable can store, such as te
 ```
 ## 27. what is count parameter in terraform ?
 In Terraform, ```count``` is a meta-argument used to create multiple instances of the same resource based on a number.
+
+## 28. What lookup function do ?
+It will search the "key value" in provided map if the value is present, it will return the value otherwise some default value will come.
+
+## 29. What ```element()``` function do ?
+```element()``` function is used to get value from a list based on it's index number.
