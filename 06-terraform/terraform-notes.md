@@ -299,7 +299,7 @@ for_each was a map or a set and create a resource for each item, which can be ac
 ## 31. Difference between a list, a set, and a map.
 A list is an ordered sequence of values, and it can contain duplicate values.</br>
 A set is a collection of unique values, so duplicates are not allowed.</br>
-A list is collection of key,value pair, where each value is accessed using it's key.
+A map is collection of key,value pair, where each value is accessed using it's key.
 
 ## 32. What is the difference between root and child module ?
 The root module is the main terraform configuration where we run terraform commands.When root module is called another module using a module block, that called module is known as a child module. 
