@@ -290,3 +290,21 @@ It will search the "key value" in provided map if the value is present, it will 
 
 ## 29. What ```element()``` function do ?
 ```element()``` function is used to get value from a list based on it's index number.
+
+## 30. What is difference between count and for_each in terraform ?
+Both are used when you wants to create multiple copies of resources.</br>
+Count uses a number and creates based on index, such as resource[0], resource[1].</br>
+for_each was a map or a set and create a resource for each item, which can be accessed using it's key, such as resource ["web"].</br>
+
+## 31. Difference between a list, a set, and a map.
+A list is an ordered sequence of values, and it can contain duplicate values.</br>
+A set is a collection of unique values, so duplicates are not allowed.</br>
+A list is collection of key,value pair, where each value is accessed using it's key.
+
+## 32. What is the difference between root and child module ?
+The root module is the main terraform configuration where we run terraform commands.When root module is called another module using a module block, that called module is known as a child module. 
+
+## 33. What is the difference between variable and local ?
+Variable are used to define values that can be provided from outside the terraform configuration instead of hardcoding the values. They make the configuration flaxible and reusable.</br>
+Locals are used to define value or expression inside the terraform configuration that we wants to reuse within the configuration. They are useful for simplifying complex expressions and avoiding repetition.
+
