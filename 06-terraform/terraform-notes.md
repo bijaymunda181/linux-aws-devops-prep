@@ -308,3 +308,6 @@ The root module is the main terraform configuration where we run terraform comma
 Variable are used to define values that can be provided from outside the terraform configuration instead of hardcoding the values. They make the configuration flaxible and reusable.</br>
 Locals are used to define value or expression inside the terraform configuration that we wants to reuse within the configuration. They are useful for simplifying complex expressions and avoiding repetition.
 
+## 34. What is terraform debugging moade ?
+Debigging mode means enabling detailed logs so you can understand what is terraform doing internally and why an error is happning . We enable it using the TF_LOG environment variable, such as TF_LOG=DEBUG or TF_LOG=TRACE. We can also use TF_LOG_PATH to save the logs to a file.
+
