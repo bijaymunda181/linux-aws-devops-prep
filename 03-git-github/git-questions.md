@@ -25,11 +25,16 @@ git fetch downloads changes without modifying the local code, while git pull dow
 ## 7. What is a branch in Git?
 A branch is an independent line of development used to work on features or fixes without affecting the main branch.
 
+## What is merge conflict ?
+A merge conflict occur when Git cannot automatically combine changes from two branches because the same part of file was changed differently.
+
 ## 8. How do you resolve a merge conflict?
-I identify the conflicting files, resolve the conflicts manually, test the code, and then commit the changes.
+First, I run git status to identify the conflict files . Then I open the files and manually resolve the conflicting changes by deciding which changes to keep. After resolving the conflict, I run git add to stage the resolved files and then commit the merge. 
 
 ## 9. What is git status used for?
 git status shows the current state of the working directory and staging area.
 
 ## 10. What happens when you run git commit?
 git commit saves the staged changes to the local repository with a commit message.
+
+## 11. 
