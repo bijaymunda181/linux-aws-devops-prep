@@ -308,6 +308,33 @@ The root module is the main terraform configuration where we run terraform comma
 Variable are used to define values that can be provided from outside the terraform configuration instead of hardcoding the values. They make the configuration flaxible and reusable.</br>
 Locals are used to define value or expression inside the terraform configuration that we wants to reuse within the configuration. They are useful for simplifying complex expressions and avoiding repetition.
 
-## 34. What is terraform debugging moade ?
-Debigging mode means enabling detailed logs so you can understand what is terraform doing internally and why an error is happning . We enable it using the TF_LOG environment variable, such as TF_LOG=DEBUG or TF_LOG=TRACE. We can also use TF_LOG_PATH to save the logs to a file.
+## 34. What is terraform debugging mode ?
+Debugging mode means enabling detailed logs so you can understand what is terraform doing internally and why an error is happning . We enable it using the TF_LOG environment variable, such as TF_LOG=DEBUG or TF_LOG=TRACE. We can also use TF_LOG_PATH to save the logs to a file.
+
+## 35. How to enable terraform debugging mode ?
+We can enable it using the command TF_LOG=DEBUG or TRACE etc.
+
+## 36. How to disable debugging mode?
+unset TF_LOG
+
+## 37. What is the difference between DEBUG and TRACE ?
+DEBUG provides detailed information for troubleshooting, while TRACE provides the most detailed logging and is useful when DEBUG logs are not sufficient to identify the issue.
+
+## 38. What is Terraform Format ?
+terraform fmt is used to automatically format Terraform configuration files according to Terraform's standard formatting style. It improves code readability and consistency.
+
+## 39. What is the command to format terraform configuration file ?
+terraform fmt
+
+## 40. What is terraform validate ?
+terraform validate is used to check whether the Terraform configuration is syntactically valid and internally consistent. It helps identify configuration errors before running ```terraform plan``` or ```terraform apply```. </br>
+terraform validate does not check whether AWS can actually create the resource.
+
+## 41. What is terraform load order and semantices ?
+Terraform loads all ```.tf``` files in the current directory as a single configuration. It does not execute the files sequentially based on their filenames. Terraform determines the execution order mainly from dependencies between resources.</br>
+Semantics means the meaning or behavior of the Terraform configuration.
+
+## 42. 
+
+
 
