@@ -25,16 +25,37 @@ git fetch downloads changes without modifying the local code, while git pull dow
 ## 7. What is a branch in Git?
 A branch is an independent line of development used to work on features or fixes without affecting the main branch.
 
-## What is merge conflict ?
+## 8. What is merge conflict ?
 A merge conflict occur when Git cannot automatically combine changes from two branches because the same part of file was changed differently.
 
-## 8. How do you resolve a merge conflict?
+## 9. How do you resolve a merge conflict?
 First, I run git status to identify the conflict files . Then I open the files and manually resolve the conflicting changes by deciding which changes to keep. After resolving the conflict, I run git add to stage the resolved files and then commit the merge. 
 
-## 9. What is git status used for?
+## 10. What is git status used for?
 git status shows the current state of the working directory and staging area.
 
-## 10. What happens when you run git commit?
+## 11. What happens when you run git commit?
 git commit saves the staged changes to the local repository with a commit message.
 
-## 11. 
+## 12. What is git init ?
+```git init``` initializes a new git repository in the current working directory.
+
+## 13. What does ```git add``` do ?
+It moves changes from working directory to the staging area .
+
+## 14. What does ```git commit``` do ?
+It save stage changed into the local Git Repository with a commit message.
+
+## 15. What does ```git push``` do ?
+It uploads local commits to the remote repository.
+
+## 16. What is git merge ?
+git merge combine changes from one branch into another branch.
+
+## 17. You modify the file but doesn't want to commit the changes yet. What can you do ?
+I can keep the changes on my working directory or use git stash of I need a clean working directory temporary.
+
+## 18. You accidentally commit the wrong changes . What would you do?
+It depends on whether the commit has already been pushed. If it is a local commit, I can use git reset. If it has already been shared, git revert is safer option because it create a new commit that reverses the previous one.
+
+## 19. 
