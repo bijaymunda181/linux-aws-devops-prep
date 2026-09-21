@@ -312,7 +312,7 @@ Locals are used to define value or expression inside the terraform configuration
 Debugging mode means enabling detailed logs so you can understand what is terraform doing internally and why an error is happning . We enable it using the TF_LOG environment variable, such as TF_LOG=DEBUG or TF_LOG=TRACE. We can also use TF_LOG_PATH to save the logs to a file.
 
 ## 35. How to enable terraform debugging mode ?
-We can enable it using the command TF_LOG=DEBUG or TRACE etc.
+We can enable it using the command ```export TF_LOG=DEBUG or TRACE``` etc.
 
 ## 36. How to disable debugging mode?
 unset TF_LOG
