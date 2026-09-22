@@ -386,5 +386,28 @@ value = aws_iam_user.lb[*].arn
 The ```terraform graph``` command is used to generate a visual representation of either a configuratin or executaion plan.</br>
 The ouput of terraform graph is in DOT format, which can easily be converted to an image.
 
-## 46. 
+## 46. What is terraform settings ?
+The special terraform configuration block type is used to configure some behavior of Terraform itself, such as requesting a minimum terraform version to apply your configuration.
+
+## 47. What is zipmap function ?
+The zipmap function constracts a map form a list of keys and a corresponding list of values.</br>
+```
+resource "aws_iam_user" "lb" {
+count = 3
+name = "iam_user-${count.index+1}"
+path = "/system/"
+}
+
+output "arn" {
+value = zipmap(aws_iam_user.lb[*].name, aws_iam_user.lb[*].arn)
+}
+```
+**output will be:**
+```
+arn = {
+  "iam_user-1" = "arn:aws:iam::241197443851:user/system/iam_user-1"
+  "iam_user-2" = "arn:aws:iam::241197443851:user/system/iam_user-2"
+  "iam_user-3" = "arn:aws:iam::241197443851:user/system/iam_user-3"
+}
+```
 
