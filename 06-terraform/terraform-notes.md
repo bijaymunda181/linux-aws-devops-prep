@@ -368,4 +368,17 @@ dynamic "ingress" {
 When you taint a resource, Terraform will destroy and recreate that resource during the next ```terraform apply```.</br>
 Older Terraform versions allowed ```terraform taint aws_instance.web``` but In modern Terraform, you should use ```terraform apply -replace="aws_instance.web"```
 
+## 44. What us terraform splat expression ?
+Splat ecpression allow us to get a list of all the attributes.
+```
+resource "aws_iam_user" "lb" {
+name = "iamuser.${count.index}"
+count = 3
+path = "/system/"
+}
+
+output "arn" {
+value = aws_iam_user.lb[*].arn
+}
+```
 
