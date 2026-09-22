@@ -334,7 +334,33 @@ terraform validate does not check whether AWS can actually create the resource.
 Terraform loads all ```.tf``` files in the current directory as a single configuration. It does not execute the files sequentially based on their filenames. Terraform determines the execution order mainly from dependencies between resources.</br>
 Semantics means the meaning or behavior of the Terraform configuration.
 
-## 42. 
+## 42. What are terraform iterators ?
+The iterators argument (optional) sets the name of a temporary variable that represents the current element of the complex value.</br>
+If omittied, the name of the variable default to the level of the dynamic block.</br>
+**EX:-**
+```
+dynamic "ingress" {
+for_each = var.ingress_ports
 
+content {
+from_port = ingress.value
+to_port   = ingress.value
+protocol  = "tcp"
+}
+}
+```
+Now the iterator is ```port``` instead of ```ingress```.
+```
+dynamic "ingress" {
+  for_each = var.ingress_ports
+  iterator = port
+
+  content {
+    from_port = port.value
+    to_port   = port.value
+    protocol  = "tcp"
+  }
+}
+```
 
 
