@@ -382,3 +382,7 @@ value = aws_iam_user.lb[*].arn
 }
 ```
 
+## 45. What is terraform graph ?
+The ```terraform graph``` command is used to generate a visual representation of either a configuratin or executaion plan.</br>
+The ouput of terraform graph is in DOT format, which can easily be converted to an image.
+
