@@ -7,3 +7,13 @@
     - Creates/updates .terraform.lock.hcl      : This records the selected provider versions and checksums so that future terraform init operations use consistent provider versions.
 
 2. terraform init -upgrade                     : To update the version & Provider. It will update the local file info.
+
+3. terraform plan                              : It shows what resources will be created,modified, and destroyed.
+
+4. terraform apply                             : It creates the resources which defined in the terraform configuration file.
+
+5. terraform plan -out=path                    : The generated terraform plan be saved in a specified file.
+
+6. terraform destroy                           : It will destroy the resources which is present in the current directory.
+
+7.

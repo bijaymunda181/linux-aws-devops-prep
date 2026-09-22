@@ -386,3 +386,5 @@ value = aws_iam_user.lb[*].arn
 The ```terraform graph``` command is used to generate a visual representation of either a configuratin or executaion plan.</br>
 The ouput of terraform graph is in DOT format, which can easily be converted to an image.
 
+## 46. 
+
