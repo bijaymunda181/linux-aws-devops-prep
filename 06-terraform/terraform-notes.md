@@ -363,4 +363,9 @@ dynamic "ingress" {
 }
 ```
 
+## 43. What is terraform taint ?
+```terraform taint``` was used to mark a resource as damaged or needing replacement.</br>
+When you taint a resource, Terraform will destroy and recreate that resource during the next ```terraform apply```.</br>
+Older Terraform versions allowed ```terraform taint aws_instance.web``` but In modern Terraform, you should use ```terraform apply -replace="aws_instance.web"```
+
 
