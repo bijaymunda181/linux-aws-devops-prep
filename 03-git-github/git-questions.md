@@ -53,7 +53,7 @@ It uploads local commits to the remote repository.
 git merge combine changes from one branch into another branch.
 
 ## 17. You modify the file but doesn't want to commit the changes yet. What can you do ?
-I can keep the changes on my working directory or use git stash of I need a clean working directory temporary.
+I can keep the changes on my working directory or use git stash if I need a clean working directory temporary.
 
 ## 18. You accidentally commit the wrong changes . What would you do?
 It depends on whether the commit has already been pushed. If it is a local commit, I can use git reset. If it has already been shared, git revert is safer option because it create a new commit that reverses the previous one.
