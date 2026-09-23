@@ -65,3 +65,10 @@ git reset is used to move the current branch/HEAD to another commit. It can also
 --mixed  → remove commit, keep changes UNSTAGED
 --hard   → remove commit, DELETE changes
 ```
+
+## 20. Difference between ```git reset``` and ```git revert``` ?
+```git reset``` moves the branch pointer to a previous commit and can rewrite Git history, whereas ```git revert``` creates a new commit that reverses the changes of an existing commit without removing that commit from history.</br>
+```
+RESET  → Move backward
+REVERT → Create a new commit to undo
+```
