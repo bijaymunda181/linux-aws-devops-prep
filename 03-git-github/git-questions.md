@@ -59,4 +59,9 @@ I can keep the changes on my working directory or use git stash if I need a clea
 It depends on whether the commit has already been pushed. If it is a local commit, I can use git reset. If it has already been shared, git revert is safer option because it create a new commit that reverses the previous one.
 
 ## 19. What is git reset ?
-
+git reset is used to move the current branch/HEAD to another commit. It can also change the staging area and working directory depending on the option you use.</br>
+```
+--soft   → remove commit, keep changes STAGED
+--mixed  → remove commit, keep changes UNSTAGED
+--hard   → remove commit, DELETE changes
+```
