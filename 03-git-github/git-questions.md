@@ -76,13 +76,17 @@ REVERT → Create a new commit to undo
 ```git stash``` temporary saves uncommitted so you can switch branches or perform another task without committing those changes.</br>
 **Suppose you are working on a file:**
 
-```app.py → modified```
+```
+app.py → modified
+```
 
 But you need to switch to another branch, and you don't want to commit your unfinished work.
 
 **You can do:**
 
-```git stash```
+```
+git stash
+```
 
 Now your changes are temporarily saved:
 
@@ -96,7 +100,9 @@ Stash
 
 **Later, when you want your changes back:**
 
-```git stash pop```
+```
+git stash pop
+```
 
 **The changes come back:**
 ```
