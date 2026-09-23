@@ -72,3 +72,38 @@ git reset is used to move the current branch/HEAD to another commit. It can also
 RESET  → Move backward
 REVERT → Create a new commit to undo
 ```
+## 21. What is ```git stash``` ?
+```git stash``` temporary saves uncommitted so you can switch branches or perform another task without committing those changes.</br>
+**Suppose you are working on a file:**
+
+```app.py → modified```
+
+But you need to switch to another branch, and you don't want to commit your unfinished work.
+
+**You can do:**
+
+```git stash```
+
+Now your changes are temporarily saved:
+
+```
+Working Directory
+↓
+git stash
+↓
+Stash
+```
+
+**Later, when you want your changes back:**
+
+```git stash pop```
+
+**The changes come back:**
+```
+Stash
+↓
+git stash pop
+↓
+Working Directory
+```
+And the stash is deleted from the stash list.
