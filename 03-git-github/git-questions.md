@@ -58,4 +58,5 @@ I can keep the changes on my working directory or use git stash if I need a clea
 ## 18. You accidentally commit the wrong changes . What would you do?
 It depends on whether the commit has already been pushed. If it is a local commit, I can use git reset. If it has already been shared, git revert is safer option because it create a new commit that reverses the previous one.
 
-## 19. 
+## 19. What is git reset ?
+
