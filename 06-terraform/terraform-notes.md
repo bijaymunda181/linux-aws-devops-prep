@@ -315,7 +315,7 @@ A set is a collection of unique values, so duplicates are not allowed.</br>
 A map is collection of key,value pair, where each value is accessed using it's key.
 
 ## 32. What is the difference between root and child module ?
-The root module is the main terraform configuration where we run terraform commands.When root module is called another module using a module block, that called module is known as a child module. 
+The root module is the main terraform configuration where we run terraform commands.When root module calls another module using a module block, that called module is known as a child module. 
 
 ## 33. What is the difference between variable and local ?
 Variable are used to define values that can be provided from outside the terraform configuration instead of hardcoding the values. They make the configuration flaxible and reusable.</br>
