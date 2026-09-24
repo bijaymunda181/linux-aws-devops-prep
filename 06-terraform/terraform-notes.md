@@ -289,8 +289,21 @@ In Terraform, ```count``` is a meta-argument used to create multiple instances o
 It will search the "key value" in provided map if the value is present, it will return the value otherwise some default value will come.
 
 ## 29. What ```element()``` function do ?
-```element()``` function is used to get value from a list based on it's index number.
+```element()``` function is used to get value from a list based on it's index number.</br>
+**Example 1 — Basic list**
+```
+variable "names" {
+default = ["bijay", "rahul", "amit"]
+}
 
+output "name" {
+value = element(var.names, 1)
+}
+```
+**Output:**
+```
+rahul
+```
 ## 30. What is difference between count and for_each in terraform ?
 Both are used when you wants to create multiple copies of resources.</br>
 Count uses a number and creates based on index, such as resource[0], resource[1].</br>
