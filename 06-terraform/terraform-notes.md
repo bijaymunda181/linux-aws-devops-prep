@@ -424,10 +424,18 @@ arn = {
 }
 ```
 
-## What is comments in terraform ?
+## 48. What is comments in terraform ?
 A comment is a text note added tp source code to provide explanatory information, usally about the function of a code .</br>
   ```
   #         - single line comment
   //        - Alternet of #
   /* and */ - It usefull for multiline comments.
   ```
+## 49. Resource behaviour and Metasgument 
+A resource block declears that you want a particular infrastrucrure object to exist with the given settings.
+
+## 50(IMP). How terraform applies a configuration ?
+- Create resource which is exist in the configuration but are not associated with a real infrastructure object in the state.
+- Destroy the resource which is exist in the state but no longer exist in the configuration.
+- Update in place resource whose arguments have changed.
+- Destroy and recreate the resources whoes arguments have changed but which cannot be updated in place due to remote API limitation.
