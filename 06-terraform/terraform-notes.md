@@ -424,3 +424,10 @@ arn = {
 }
 ```
 
+## What is comments in terraform ?
+A comment is a text note added tp source code to provide explanatory information, usally about the function of a code .</br>
+  ```
+  #         - single line comment
+  //        - Alternet of #
+  /* and */ - It usefull for multiline comments.
+  ```
