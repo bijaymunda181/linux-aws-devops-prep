@@ -431,7 +431,7 @@ A comment is a text note added tp source code to provide explanatory information
   //        - Alternet of #
   /* and */ - It usefull for multiline comments.
   ```
-## 49. Resource behaviour and Metasgument 
+## 49. Resource behaviour and Meta agument 
 A resource block declears that you want a particular infrastrucrure object to exist with the given settings.
 
 ## 50(IMP). How terraform applies a configuration ?
