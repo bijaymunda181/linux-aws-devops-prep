@@ -123,3 +123,7 @@ shows the Git commit history in a short, one-line format.
 ```
 git log --oneline
 ```
+
+## You push a secret/password to GitHub . What would you do ?
+First, I would rotate/revoke the exposed credential immediately.</br>
+Then remove the secret from the repository and, if necessary, cleanup from Git history an appropriate history rewriting tool. I would also move the secret-management solution instead of storing it in Git. 
