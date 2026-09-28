@@ -113,3 +113,13 @@ git stash pop
 Working Directory
 ```
 And the stash is deleted from the stash list.
+
+## 22. What is git log ?
+```git log``` display commit history.</br>
+```
+git log
+```
+shows the Git commit history in a short, one-line format.
+```
+git log --oneline
+```
