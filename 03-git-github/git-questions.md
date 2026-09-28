@@ -134,3 +134,5 @@ Fist, I would identify the conflict files by using the command ```git status```.
 git add <file>
 git commit
 ```
+
+## 25. 
