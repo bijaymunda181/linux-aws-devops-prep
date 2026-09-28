@@ -126,7 +126,7 @@ git log --oneline
 
 ## 23. You push a secret/password to GitHub . What would you do ?
 First, I would rotate/revoke the exposed credential immediately.</br>
-Then remove the secret from the repository and, if necessary, cleanup from Git history an appropriate history rewriting tool. I would also move the secret-management solution instead of storing it in Git. 
+Then remove the secret from the repository and, if necessary, cleanup from Git history an appropriate history rewriting tool. I would also move the secret to a proper secret-management solution instead of storing it in Git. 
 
 ## 24. Two developer modified the same line and now there is a conflict. What would you do?
 Fist, I would identify the conflict files by using the command ```git status```. Then I  will open the conflict file, resolve the conflict file manually, then :
