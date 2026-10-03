@@ -6,3 +6,14 @@ e kernel is the core component of the operating system. It manages hardware reso
 
 ## 3. What is systemd?
 ```systemd``` is the service and system manager used by many modern Linux distributions. It manages services, boot targets, processes, mounts, and other system resources.
+
+## 4. Purpose of important directories?
+| Directory | Purpose                    |
+| --------- | -------------------------- |
+| `/etc`    | Configuration files        |
+| `/var`    | Variable data such as logs |
+| `/home`   | User home directories      |
+| `/tmp`    | Temporary files            |
+| `/proc`   | Kernel/process information |
+| `/root`   | Root user's home directory |
+| `/boot`   | Boot-related files         |
