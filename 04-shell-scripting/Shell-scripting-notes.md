@@ -18,7 +18,7 @@ a=5</br>
 b=2
 
 ## 4. What is constant variable ?
-Once you define a variable and dont't wanna change it until end of the script .</br>
+Once you define a variable and don't wanna change it until end of the script .</br>
 Ex: readonly name= "bijay"
 
 ## 5. What is Arrays in shell-scripting ?
