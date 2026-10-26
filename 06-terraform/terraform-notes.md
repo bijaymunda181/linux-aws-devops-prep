@@ -431,7 +431,7 @@ A comment is a text note added tp source code to provide explanatory information
   //        - Alternet of #
   /* and */ - It usefull for multiline comments.
   ```
-## 49. Resource behaviour and Meta agument 
+## 49. Resource behaviour 
 A resource block declears that you want a particular infrastrucrure object to exist with the given settings.
 
 ## 50(IMP). How terraform applies a configuration ?
@@ -439,3 +439,13 @@ A resource block declears that you want a particular infrastrucrure object to ex
 - Destroy the resource which is exist in the state but no longer exist in the configuration.
 - Update in place resource whose arguments have changed.
 - Destroy and recreate the resources whoes arguments have changed but which cannot be updated in place due to remote API limitation.
+
+## 51. What is meta argument in terraform ?
+Some details of the default resource behaviour can be costomized using the nested lifecycle block within a resource block.
+
+## 52. Types of meta aruments?
+There are 4 types of meta argument:
+- create_before_destroy :- New replacement object is created first, and the prior object is destroyed after the replacement is created.
+- prevent_destroy       :- This meta argument, when set to true, will cause terraform to reject with an error any plan that would destroy the infrastructure object associated with the resource.
+- ignore_changes        :- In order to chnage the behaviour and ignore the manually applied changes, we can use of ignore_changes argument.
+- replace_triggered_by  :- Replaces the resource when any of the referenced item chnages.
