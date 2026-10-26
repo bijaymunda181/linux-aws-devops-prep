@@ -441,7 +441,7 @@ A resource block declears that you want a particular infrastrucrure object to ex
 - Destroy and recreate the resources whoes arguments have changed but which cannot be updated in place due to remote API limitation.
 
 ## 51. What is meta argument in terraform ?
-Some details of the default resource behaviour can be coustomized using the nested lifecycle block within a resource block.
+Some details of the default resource behaviour can be customized using the nested lifecycle block within a resource block.
 
 ## 52. Types of meta aruments?
 There are 4 types of meta argument:
