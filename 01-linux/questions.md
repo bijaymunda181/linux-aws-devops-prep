@@ -26,4 +26,4 @@ A firewall is a security feature in Linux that controls incoming and outgoing ne
 - I'll also check application status weather it is running or not by the command **systemctl status nginx**
 - I'll check weather the application is listing on port 80 or 443 by using the command **netstate -lntp**
 - I'll check firewall status by using the command **systemctl status firewalld**
-- I'll verify weather the required port is allowed in the firewall by the command **firewall -cmd --list-all**
+- I'll verify weather the required port is allowed in the firewall by the command **firewall-cmd --list-all**
