@@ -17,3 +17,6 @@ e kernel is the core component of the operating system. It manages hardware reso
 | `/proc`   | Kernel/process information |
 | `/root`   | Root user's home directory |
 | `/boot`   | Boot-related files         |
+
+## 4. What is Firewall in Linux ?
+A firewall is a security feature in Linux that controls incoming and outgoing network traffic.
